@@ -10,9 +10,12 @@
 <body>
     <h1>Desafio das Imagens</h1>
     <br>
-    <br>
-    <br>
     <h3>Madrid</h3>
-        <img src="Madrid.jpg" alt="Paisagem da Cidade de Madrid" width="760px">
+        <picture>
+            <source media="(min-width:760px") srcset="Madrid.jpg">
+            <source media="(max-width:759px") srcset="Madrid-p.jpg">
+            <img src="Madrid.jpg" alt="Paisagem da Cidade de Madrid" width="100%">
+        </picture>
+
 </body>
 </html>
