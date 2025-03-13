@@ -57,7 +57,28 @@
     <p>Nesse exemplo demontrarei um trecho de código</p>
     <pre>
         <code>
-            Print("Hello World!")
+    def verificar_primo(numero):
+        if numero <= 1:
+            return False
+        for i in range(2, numero):
+            if numero % i == 0:
+                return False
+        return True
+
+    def main():
+        num = int(input("Digite um número para verificar se ele é primo: "))
+    
+        if verificar_primo(num):
+            print(f"O número {num} é primo!")
+        else:
+            print(f"O número {num} não é primo.")
+
+    if __name__ == "__main__":
+        main()
+        </code>
+    </pre>
+
+    <h2>Endereço</h2>
         </code>
     </pre>
 
