@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(gray, 0.7);
+}
+
+h1{
+    background-color: rgb(255, 154, 143);
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+h2{
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    color: blue;
+}
+
+.lorem {
+    color: brown;
+}
+
+a{
+    float: right;
+}
