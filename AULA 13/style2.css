@@ -1,0 +1,52 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/1c/ea/68/1cea689a9e6111d1de83e6c017253d0e.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+}
+
+main{
+    background-color: white;
+    background: radial-gradient(circle, gray, white 70%);
+    width: 30vw; 
+    border-radius: 10px;  
+    padding-bottom: 50px;
+    padding: 50px;
+    box-shadow: 5px 10px 20px 5px rgba(0, 0, 0, 0.4);
+    margin-bottom: 30px;
+}
+
+h1{
+    color: rgb(0, 104, 165);
+    text-align: center;
+    font-family: 'TopSecret';
+    font-style: normal;
+}
+
+h2{
+    color: rgb(102, 102, 102);
+    font-family: 'GimmeDanger';
+}
+
+p{
+    text-align: justify;
+    font-family: 'LLCooper';
+}
+
+@font-face {
+    font-family: 'TopSecret';
+    src: url(fontes/TopSecret.ttf);
+}
+
+@font-face {
+    font-family: 'GimmeDanger';
+    src: url(./fontes/Gimme\ Danger.ttf);
+}
+
+@font-face {
+    font-family: 'LLCooper';
+    src: url(./fontes/LLCOOPER.TTF);
+}

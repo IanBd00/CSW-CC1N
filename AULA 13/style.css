@@ -1,0 +1,55 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/aa/31/e3/aa31e30c782c9210c5f945d9f472fa4d.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+}
+
+main{
+    background-color: white;
+    background: radial-gradient(circle, gray, white 70%);
+    width: 30vw; 
+    border-radius: 10px;  
+    padding-bottom: 50px;
+    padding: 50px;
+    box-shadow: 5px 10px 20px 5px rgba(0, 0, 0, 0.4);
+    margin-bottom: 30px;
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+h2{
+    color: rgb(12, 151, 42);
+}
+
+p{
+    text-align: justify;
+}
+
+.sedan-regular {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "width" 100;
+  }
+  
+.lora {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
