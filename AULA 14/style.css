@@ -1,14 +1,24 @@
-body{
-    display: flex;
-}
-
 .divisao {
-    display:inline-block;
-    background-color: aqua;
+    display:block;
+    background-color: silver;
     border: 1px, solid, black;
     border-radius: 15px;
     padding: 10px;
     margin-right: 50px
+}
+
+.separar{
+    display: flex;
+    margin-left: 37px;
+    justify-content: center;
+}
+
+#mudarp:hover{
+    background-color: red;
+}
+
+#mudarc:active{
+    background-color: red;
 }
 
 .hprimeiro{
@@ -25,10 +35,6 @@ body{
     margin: 50px;
 }
 
-.hprimeiro:hover{
-    background-color: red;
-}
-
 .hsegundo {
     border-color: blue;
     outline-color: red;
@@ -42,4 +48,25 @@ body{
     outline-width: 10px;
     margin: 50px;
 }
+
+a{
+    text-decoration: none;
+    color: black
+    
+}
+
+a::before {
+    content: "✵ ";
+    color: #555;
+}
+
+a::after {
+    content: "✵ ";
+    color: #555;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
 
