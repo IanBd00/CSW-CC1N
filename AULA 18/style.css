@@ -1,0 +1,69 @@
+.cinput{
+    width: 40em;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.pagina {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dpessoal {
+    border: 3px, solid, black;
+    border-radius: 10px;
+    padding: 10px;
+    width:fit-content
+}
+
+.checkradio{
+    display: flex;
+    justify-content: space-around;
+}
+
+.login {
+    border: 3px, solid, black;
+    border-radius: 10px;
+    padding: 10px;
+    width:fit-content
+    
+}
+
+.checkbox {
+    border: 3px, solid, black;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.radio {
+    border: 3px, solid, black;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+.comentario {
+    border: 3px, solid, black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.esportes {
+    border: 3px, solid, black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#checkbox{
+    width:fit-content
+}
+
+#radio{
+    width:fit-content
+}

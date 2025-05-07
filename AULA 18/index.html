@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AULA 16</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <div class="pagina">
+        <div class="dpessoal">
+            <h1 class="titulo">Dados Pessoais</h1>
+            <form action="">
+                <label for="nome">Nome:</label><br>
+                <input type="text" name="nome" placeholder="Insira seu nome aqui" class="cinput"><br><br>
+                <label for="">Idade:</label><br>
+                <input type="number" name="idade" placeholder="Insira sua idade" class="cinput"><br><br>
+                <label for="" id="cor">Escolha uma cor:</label><br>
+                <input type="color"><br><br>
+                <label for="">Data e Hora:</label><br>
+                <input type="datetime-local" class="cinput"><br><br>
+                <label for="">Selecione um arquivo:</label><br>
+                <input type="file" value="arquivo">
+            </form>
+        </div>
+        <div class="forms2">
+            <div class="login">
+                <h1 class="titulo">Login</h1>
+                <form>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" name="email" placeholder="Insira seu e-mail aqui" class="cinput">
+                    <br>
+                    <br>
+                    <label for="password">Senha:</label><br>
+                    <input type="password" placeholder="Insira sua senha aqui" class="cinput">
+                </form>
+            </div>
+            <br>
+            <br>
+            <div class="checkradio">
+            <div class="checkbox" id="checkbox">
+                <form>
+                    <label for="">Selecione uma opção</label><br>
+                    <input type="checkbox">Opção 1 <br>
+                    <input type="checkbox">Opção 2<br>
+                    <input type="checkbox">Opção 3
+                </form>
+            </div>
+            <br>
+            <div class="radio" id="radio">
+                <form>
+                    <label for="">Selecione uma opção</label><br>
+                    <input type="radio" name="opcoes" value="op1">Opção 1 <br>
+                    <input type="radio" name="opcoes" value="op2">Opção 2<br>
+                    <input type="radio" name="opcoes" value="op3">Opção 3
+                </form>
+            </div>
+            </div>
+            </div>
+            <div class="forms3">
+                <div class="comentario">
+                    <form>
+                        <form>
+                            <p>Deixe um comentário:</p>
+                            <textarea name="Comentário" rows="10" cols="50"
+                                placeholder="Escreva seu comentário aqui"></textarea>
+                        </form>
+                    </form>
+                </div>
+                <br>
+                <br>
+                <form>
+                    <div class="esportes">
+                        <label for="">Esporte favorito:</label>
+                        <select name="esportes" size="1">
+                            <option value="">Selecione</option>
+                            <option value="volei">Volêi</option>
+                            <option value="futebol">Futebol</option>
+                            <option value="basquete">Basquete</option>
+                            <option value="handebol">Handebol</option>
+                        </select>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
