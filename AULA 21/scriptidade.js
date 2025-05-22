@@ -1,7 +1,7 @@
-let dia = document.getElementById("dia")
-let mes = document.getElementById("mes")
-let ano = document.getElementById("ano")
+for (let par = 0; par <= 1000; par += 2) {
+    let impar = 999 - par
 
-function Calcidade(){
-    
+document.writeln("<h1>" + par + "<br>"+"<h1>" + impar)
+
 }
+
