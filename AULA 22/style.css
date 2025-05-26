@@ -1,0 +1,20 @@
+.container {
+    background-color: rgba(127, 127, 127, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%);
+}
+
+.centralizar {
+    justify-content: center;
+    text-align: center;
+}
+
+#botao{
+    width: 100px;
+    border-radius: 10px;
+}
